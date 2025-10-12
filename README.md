@@ -1,3 +1,2 @@
  # TKD Web Project
-
-This is my Project.
+Desarrollo de la página web para una escuela de artes marciales como Trabajo de Fin de Grado. 
