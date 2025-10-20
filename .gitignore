@@ -1,1 +1,4 @@
-/media
+*.png
+*.jpg
+*.jpeg
+frontend/node_modules
