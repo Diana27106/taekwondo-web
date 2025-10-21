@@ -1,18 +1,58 @@
-# React + Vite
+# Taekwondo Sierra Nevada Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido al repositorio del proyecto **Taekwondo Sierra Nevada Web**!
 
-Currently, two official plugins are available:
+Este proyecto es una plataforma digital integral para el Club de Taekwondo Sierra Nevada, diseñada para centralizar la gestión, mejorar la comunicación y establecer una sólida presencia profesional en línea.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Características Principales
 
-## React Compiler
+- **Diseño Responsive:** Interfaz moderna y adaptativa (desktop y móvil) utilizando **Tailwind CSS**.
+- **Contenido Dinámico:** Gestión de un **Blog** y un **Calendario de Eventos** a través del Panel de Administración.
+- **Asistencia por IA:** Chat de Inteligencia Artificial integrado para consultas rápidas.
+- **Panel de Administración Segurizado:** Interfaz privada con autenticación **JWT** para el equipo docente.
+- **Comunicación Directa:** Formulario de contacto y enlaces rápidos (ej. WhatsApp).
+- **Pila Tecnológica Moderna:** Construido con **React** y **Express** para un rendimiento rápido (gracias a Vite).
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 💡 Resumen del Proyecto y Propósito
 
-Note: This will impact Vite dev & build performances.
+El objetivo principal es **digitalizar la gestión del club**, proporcionando una herramienta de comunicación centralizada para alumnos, padres y profesores, y atrayendo nuevos miembros y patrocinadores con una imagen profesional en internet.
 
-## Expanding the ESLint configuration
+### Público Objetivo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Comunidad Interna:** Alumnos, padres/tutores y personal del club.
+- **Comunidad Externa:** Potenciales patrocinadores y visitantes interesados en unirse.
+
+### Modelo de Despliegue
+
+La aplicación se compone de un **Frontend Público** (acceso libre) y un **Panel de Administración** (acceso privado) gestionados por un **Backend/API** robusto.
+
+## 🛠️ Pila Tecnológica (Tech Stack)
+
+| Componente        | Tecnología              | Descripción                                                                |
+| :---------------- | :---------------------- | :------------------------------------------------------------------------- |
+| **Frontend**      | React (Vite)            | Framework principal para la UI con un servidor de desarrollo ultrarrápido. |
+| **Estilizado**    | Tailwind CSS            | Framework CSS utilitario para un diseño rápido y responsive.               |
+| **Backend**       | Node.js + Express       | Servidor API ligero para la lógica de negocio y la gestión de datos.       |
+| **Base de Datos** | PostgreSQL              | Base de datos relacional robusta y de código abierto.                      |
+| **Autenticación** | JWT + bcrypt            | JSON Web Tokens para sesiones y bcrypt para encriptación de contraseñas.   |
+| **IA**            | API Gratuita/Modelo OS  | Módulo integrado para consultas contextuales.                              |
+| **DevOps**        | Docker & Docker Compose | Contenedores para un entorno de desarrollo reproducible.                   |
+
+## 🚀 Instalación y Ejecución Local
+
+Para poner en marcha el proyecto localmente, se recomienda utilizar **Docker Compose** para configurar rápidamente el backend y la base de datos, aunque también se puede ejecutar cada componente de forma independiente.
+
+### Requisitos
+
+- Node.js (v18+)
+- npm
+- Docker & Docker Compose (Recomendado)
+
+### 1. Configuración del Entorno (Docker)
+
+En la raíz del proyecto, ejecuta:
+
+```bash
+# Levanta la base de datos PostgreSQL y el backend (si está configurado en docker-compose.yml)
+docker-compose up -d
+```
