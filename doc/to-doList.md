@@ -24,7 +24,7 @@
 
 | Task                                                                                                     | Phase | Complexity | Dependencies | Status      |
 | -------------------------------------------------------------------------------------------------------- | ----- | ---------- | ------------ | ----------- |
-| Especificar stack final (React+TS, Tailwind, Django o Symfony, PostgreSQL)                               | MVP   | Medium     | None         | Not Started |
+| Especificar stack final (React+TS, Tailwind, Django o Symfony, PostgreSQL)                               | MVP   | Medium     | None         | In Progress |
 | Definir endpoints API principales (auth, clases, eventos, sponsors, blog, contact, chat)                 | MVP   | Medium     | Stack        | Not Started |
 | Modelar base de datos (tablas: users, locations, instructors, classes, events, sponsors, blog, comments) | MVP   | High       | Stack        | Not Started |
 | Crear plan temporal con tareas pequeñas (sprints)                                                        | MVP   | Medium     | Stack        | Not Started |

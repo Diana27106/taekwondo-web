@@ -19,10 +19,6 @@ Web application distributed in two main components:
 - **Public Frontend:** Free access to informational content.
 - **Administration Panel:** Private and protected access for content management.
 
-**Budget (Zero Cost):**
-
-The project adheres to a strict **$0$ (zero Euro) budget policy**. Its development relies exclusively on the use of **open source tools, free services, and free APIs**, prioritizing local development environments and **containerization (Docker)** to maintain reproducibility and reduce operational costs.
-
 ---
 
 ### 2. User Roles and Permissions
